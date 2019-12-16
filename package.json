@@ -1,0 +1,24 @@
+{
+    "name": "eslint-config-goldenthumb",
+    "version": "0.0.1",
+    "main": "index.js",
+    "files": [
+        "react.js"
+    ],
+    "repository": "https://github.com/goldenthumb/eslint-config-goldenthumb.git",
+    "author": "yhchoi <cyh8914@gmail.com>",
+    "license": "MIT",
+    "peerDependencies": {
+        "eslint": "^6.7.2"
+    },
+    "dependencies": {
+        "babel-eslint": "^10.0.3",
+        "eslint": "^6.7.2",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-plugin-import": "^2.19.1",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.17.0",
+        "eslint-plugin-react-hooks": "1.7.0"
+    }
+}
