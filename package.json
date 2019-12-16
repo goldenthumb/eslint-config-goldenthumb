@@ -1,9 +1,9 @@
 {
     "name": "eslint-config-goldenthumb",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "index.js",
     "files": [
-        "react.js"
+        "*.js"
     ],
     "repository": "https://github.com/goldenthumb/eslint-config-goldenthumb.git",
     "author": "yhchoi <cyh8914@gmail.com>",

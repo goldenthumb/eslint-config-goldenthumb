@@ -29,6 +29,6 @@ module.exports = {
         "operator-linebreak": "off",
         "camelcase": "off",
         "no-underscore-dangle": "off",
-        "no-use-before-define": "off"
+        "no-use-before-define": "off",
     }
 }
