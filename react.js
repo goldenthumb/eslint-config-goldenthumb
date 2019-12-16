@@ -5,6 +5,7 @@ module.exports = {
         "airbnb/hooks"
     ],
     "rules": {
+        "indent": ["error", 4],
         "react/jsx-indent": ["error", 4],
         "react/jsx-indent-props": ["error", 4],
         "jsx-a11y/click-events-have-key-events": "off",
