@@ -1,6 +1,8 @@
 module.exports = {
     parser: "babel-eslint",
     rules:{
+        "no-bitwise": "off",
+        "no-nested-ternary": "off",
         "no-continue": "off",
         "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
         "dot-notation": "off",
