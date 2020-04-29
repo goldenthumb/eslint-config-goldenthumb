@@ -4,7 +4,7 @@ module.exports = {
         "no-bitwise": "off",
         "no-nested-ternary": "off",
         "no-continue": "off",
-        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+        "no-plusplus": "off",
         "dot-notation": "off",
         "indent": ["error", 4],
         "max-len": ["error", { "code": 120 }],
