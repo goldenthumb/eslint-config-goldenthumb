@@ -3,6 +3,7 @@ module.exports = {
     rules:{
         "no-bitwise": "off",
         "no-nested-ternary": "off",
+        "no-return-assign": "off",
         "no-continue": "off",
         "no-plusplus": "off",
         "dot-notation": "off",
