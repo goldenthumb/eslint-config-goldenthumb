@@ -7,7 +7,7 @@ module.exports = {
         "no-continue": "off",
         "no-plusplus": "off",
         "dot-notation": "off",
-        "indent": ["error", 4],
+        "indent": ["error", 4, { "SwitchCase": 1 }],
         "max-len": ["error", { "code": 120 }],
         "no-await-in-loop": "off",
         "no-param-reassign": "off",
