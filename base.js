@@ -1,12 +1,14 @@
 module.exports = {
     parser: "babel-eslint",
-    rules:{
+    rules: {
         "no-bitwise": "off",
         "no-nested-ternary": "off",
         "no-return-assign": "off",
         "no-continue": "off",
         "no-plusplus": "off",
         "dot-notation": "off",
+        "eol-last": ["error", "always"],
+        "quotes": ["error", "single", { "allowTemplateLiterals": true }],
         "indent": ["error", 4, { "SwitchCase": 1 }],
         "max-len": ["error", { "code": 120 }],
         "no-await-in-loop": "off",
