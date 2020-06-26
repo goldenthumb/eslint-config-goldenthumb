@@ -9,7 +9,7 @@ module.exports = {
         "dot-notation": "off",
         "eol-last": ["error", "always"],
         "quotes": ["error", "single", { "allowTemplateLiterals": true }],
-        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "indent": ["error", 4, { "SwitchCase": 1, "ignoredNodes": ["TemplateLiteral *"] }],
         "max-len": ["error", { "code": 120 }],
         "no-await-in-loop": "off",
         "no-param-reassign": "off",
@@ -21,4 +21,4 @@ module.exports = {
         "operator-linebreak": ["error", "after"],
         "semi": ["error", "always"],
     },
-}
+};
