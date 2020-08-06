@@ -5,6 +5,8 @@ module.exports = {
         "./base.js",
     ],
     rules: {
+        "react-hooks/exhaustive-deps": "warn",
+        "jsx-a11y/label-has-associated-control": "warn",
         "react/jsx-closing-tag-location": "off",
         "react/jsx-filename-extension": "off",
         "react/jsx-indent": ["error", 4],
