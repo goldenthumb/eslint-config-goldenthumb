@@ -16,7 +16,7 @@ module.exports = {
         'no-underscore-dangle': 'off',
         'no-use-before-define': 'off',
         'object-curly-newline': 'off',
-        'operator-linebreak': ['error', 'after'],
+        'operator-linebreak': ['error', 'before'],
         'prefer-const': 'warn',
         'require-await': 'error',
         'require-yield': 'error',
