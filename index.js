@@ -1,7 +1,6 @@
 module.exports = {
-    parser: 'babel-eslint',
     extends: ['airbnb-base'],
-    plugins: ['html', 'simple-import-sort', 'babel'],
+    plugins: ['html', 'simple-import-sort'],
     rules: {
         'babel/no-unused-expressions': 'error',
         'class-methods-use-this': 'off',
