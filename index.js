@@ -1,9 +1,12 @@
 module.exports = {
+    parser: 'babel-eslint',
     extends: ['airbnb-base'],
-    plugins: ['html', 'simple-import-sort'],
+    parserOptions: {
+        ecmaVersion: 11,
+    },
+    plugins: ['html', 'simple-import-sort', 'babel'],
     rules: {
         'babel/no-unused-expressions': 'error',
-        'class-methods-use-this': 'off',
         'class-methods-use-this': 'off',
         'dot-notation': 'off',
         'eol-last': ['error', 'always'],
