@@ -33,7 +33,18 @@ module.exports = {
         'prefer-const': 'warn',
         'require-await': 'error',
         'require-yield': 'error',
-        'simple-import-sort/sort': 'error',
+        'simple-import-sort/sort': [
+            'error',
+            {
+                groups: [
+                    ['^\\u0000'],
+                    ['^react', '^next', '^\\w'],
+                    ['^@?\\w'],
+                    ['^[^.]'],
+                    ['^\\.'],
+                ],
+            },
+        ],
         'sort-imports': 'off',
         indent: ['error', 4, { SwitchCase: 1, ignoredNodes: ['TemplateLiteral *'] }],
         quotes: ['error', 'single', { allowTemplateLiterals: true }],
