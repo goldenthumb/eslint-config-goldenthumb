@@ -1,5 +1,7 @@
 # Eslint config
 
+[![npm](https://img.shields.io/npm/v/eslint-config-goldenthumb.svg)](https://www.npmjs.com/package/eslint-config-goldenthumb)
+
 <br />
 
 ## Install
@@ -18,9 +20,9 @@ https://eslint.org/docs/developer-guide/shareable-configs
 
 ```json
 {
-  "eslintConfig": {
-    "extends": "goldenthumb"
-  }
+    "eslintConfig": {
+        "extends": "goldenthumb"
+    }
 }
 ```
 
@@ -28,7 +30,7 @@ https://eslint.org/docs/developer-guide/shareable-configs
 
 ```json
 {
-  "extends": "goldenthumb"
+    "extends": "goldenthumb"
 }
 ```
 
@@ -36,10 +38,10 @@ https://eslint.org/docs/developer-guide/shareable-configs
 
 ### Subsets
 
-- `goldenthumb`
-- `goldenthumb/react`
-- `goldenthumb/typescript`
-- `goldenthumb/typescriptreact`
+-   `goldenthumb`
+-   `goldenthumb/react`
+-   `goldenthumb/typescript`
+-   `goldenthumb/typescriptreact`
 
 ```
 base
@@ -70,9 +72,9 @@ npm install --save-dev eslint-config-prettier eslint-plugin-prettier
 
 ```json
 {
-  "eslintConfig": {
-    "extends": ["goldenthumb", "plugin:prettier/recommended"]
-  }
+    "eslintConfig": {
+        "extends": ["goldenthumb", "plugin:prettier/recommended"]
+    }
 }
 ```
 
@@ -86,9 +88,9 @@ npm install --save-dev eslint-config-prettier eslint-plugin-prettier
 
 ```json
 {
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
 }
 ```
 
@@ -100,11 +102,10 @@ npm install --save-dev eslint-config-prettier eslint-plugin-prettier
 
 ```json
 {
-  "scripts": {
-    "lint": "eslint '*/**/*.{js,ts,tsx}' --fix"
-  }
+    "scripts": {
+        "lint": "eslint '*/**/*.{js,ts,tsx}' --fix"
+    }
 }
 ```
 
 <br />
-

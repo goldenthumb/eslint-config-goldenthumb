@@ -24,7 +24,7 @@ module.exports = {
         'react/jsx-wrap-multilines': 'off',
         'react/no-array-index-key': 'warn',
         'react/no-danger': 'warn',
-        'react/no-unescaped-entities': 'warn',
+        'react/no-unescaped-entities': 'off',
         'react/prop-types': 'off',
         'react/react-in-jsx-scope': 'off',
         'react/require-default-props': 'off',
