@@ -13,7 +13,6 @@ module.exports = {
         'import/extensions': 'off',
         'import/order': 'off',
         'import/prefer-default-export': 'off',
-        'import/prefer-default-export': 'warn',
         'max-len': ['error', { code: 120 }],
         'no-await-in-loop': 'off',
         'no-bitwise': 'off',
