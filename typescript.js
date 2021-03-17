@@ -12,6 +12,7 @@ module.exports = {
     rules: {
         'no-unused-vars': 'off',
         'import/no-unresolved': 'off',
+        'lines-between-class-members': 'off',
         '@typescript-eslint/no-use-before-define': 'off',
         '@typescript-eslint/no-unused-vars': 'warn',
         '@typescript-eslint/no-non-null-assertion': 'off',
